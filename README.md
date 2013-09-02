@@ -3,8 +3,14 @@ titanium-alpha
 
 Test app for Helpshift titanium plugin
 
-** master branch contains a template titanium app
+master branch 
+-------------
+contains a template titanium app
 
-** hs/android branch contains the titanium app with Helpshift integration for android
+hs/android branch 
+-------------
+contains the titanium app with Helpshift integration for android
 
-** hs/ios branch contains the titanium app with Helpshift integration for iOS
+hs/ios branch 
+-------------
+contains the titanium app with Helpshift integration for iOS
