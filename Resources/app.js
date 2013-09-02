@@ -41,4 +41,8 @@ if (Ti.version < 1.8 ) {
 		}
 	}
 	new Window().open();
+	
+	var r2d2 = require('com.helpshift.android');
+	Ti.API.info ("Module is " + r2d2);
+ 	r2d2.install("test_platform_20130827063455422-01baea4e03477d4", "test.helpshift.com",  "d97845b2336e7aba3b8a51357a122790"/*, {disableInAppNotif:false}*/);
 })();
