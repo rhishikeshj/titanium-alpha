@@ -41,4 +41,14 @@ if (Ti.version < 1.8 ) {
 		}
 	}
 	new Window().open();
+	
+	var helpshift = require('com.helpshift.ios');
+    Ti.API.info("module is => "+ helpshift);
+    helpshift.installApp('<platform-id>', '<domain>.helpshift.com', '<app-id>', {"disableInAppNotif" : "NO"});
+
+    Ti.App.iOS.addEventListener('notification', function(e){
+
+  	if (e["userInfo"]["origin"] == "helpshift")
+   		helpshift.handleLocalNotification(e["userInfo"]["issue_id"]);
+	});
 })();

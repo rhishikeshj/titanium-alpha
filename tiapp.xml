@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><ti:app xmlns:ti="http://ti.appcelerator.org">
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
     <property name="acs-oauth-secret-production" type="string">ujZVDKo52RoxkMcazFfAY33ebmVG4Su9</property>
     <property name="acs-oauth-key-production" type="string">PZdS7CbUuPkCoeLECm0pcPwS9u3Sa4zp</property>
     <property name="acs-api-key-production" type="string">7MszGcwjdv1nAUSFas19e0I0HIQByNP4</property>
@@ -51,7 +52,6 @@
         <target device="ipad">true</target>
         <target device="iphone">true</target>
         <target device="mobileweb">true</target>
-        <target device="tizen">false</target>
     </deployment-targets>
     <sdk-version>3.1.2.GA</sdk-version>
     <property name="ti.deploytype">test</property>
